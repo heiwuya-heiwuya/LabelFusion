@@ -49,6 +49,11 @@ build_elasticfusion()
   git clone https://github.com/peteflorence/ElasticFusion.git
   cd ElasticFusion
   git checkout pf-lm-debug-jpeg
+  
+  git clone https://github.com/occipital/OpenNI2.git
+  cd OpenNI2
+  make -j$(nproc)
+  cd ..
 
   git clone https://github.com/stevenlovegrove/Pangolin.git
   cd Pangolin
