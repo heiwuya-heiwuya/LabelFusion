@@ -46,7 +46,7 @@ build_director()
 build_elasticfusion()
 {
   cd $root_dir
-  git clone https://github.com/peteflorence/ElasticFusion.git
+  git clone https://github.com/heiwuya-heiwuya/ElasticFusion.git
   cd ElasticFusion
   git checkout pf-lm-debug-jpeg
   
